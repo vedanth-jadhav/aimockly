@@ -49,4 +49,4 @@ USING (auth.uid() = id);`,
   }
 }
 
-export { issuesStore };
+// issuesStore is internal to this route - not exported

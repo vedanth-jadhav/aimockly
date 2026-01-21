@@ -87,4 +87,4 @@ export async function GET(
   }
 }
 
-export { scansStore, issuesStore };
+// scansStore and issuesStore are internal to this route - not exported

@@ -145,7 +145,7 @@ export function MockyAvatar({
           },
         },
       }
-    : {};
+    : undefined;
 
   return (
     <motion.div

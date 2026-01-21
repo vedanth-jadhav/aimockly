@@ -12,7 +12,7 @@ export default function SignUpPage() {
         </Link>
       </nav>
       <div className="flex-1 flex items-center justify-center px-4 py-12">
-        <AuthForm mode="signUp" />
+        <AuthForm />
       </div>
     </div>
   );
