@@ -1,0 +1,41 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Confetti particles -->
+  <rect x="15" y="10" width="4" height="4" fill="#4A90D9" transform="rotate(30 17 12)"/>
+  <rect x="80" y="15" width="3" height="3" fill="#F5C842" transform="rotate(-20 81 16)"/>
+  <rect x="10" y="35" width="3" height="3" fill="#4CAF50" transform="rotate(45 11 36)"/>
+  <rect x="85" y="40" width="4" height="4" fill="#E53935" transform="rotate(15 87 42)"/>
+  <circle cx="20" cy="25" r="2" fill="#9C27B0"/>
+  <circle cx="78" cy="28" r="2" fill="#FF9800"/>
+
+  <!-- Outer ring -->
+  <circle cx="50" cy="50" r="45" fill="#f0f0f0" stroke="#d0d0d0" stroke-width="3"/>
+
+  <!-- Inner face -->
+  <circle cx="50" cy="50" r="38" fill="white" stroke="#333" stroke-width="2.5"/>
+
+  <!-- Party hat -->
+  <polygon points="50,2 28,38 72,38" fill="#E53935" stroke="#C62828" stroke-width="1"/>
+
+  <!-- Hat stripes -->
+  <line x1="38" y1="20" x2="42" y2="32" stroke="#4A90D9" stroke-width="3"/>
+  <line x1="50" y1="15" x2="50" y2="30" stroke="#4CAF50" stroke-width="3"/>
+  <line x1="62" y1="20" x2="58" y2="32" stroke="#F5C842" stroke-width="3"/>
+
+  <!-- Hat pom-pom -->
+  <circle cx="50" cy="2" r="5" fill="#F5C842"/>
+
+  <!-- Eyebrows - excited/raised -->
+  <path d="M30 38 L42 36" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M58 36 L70 38" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Eyes - happy squint -->
+  <path d="M32 50 Q37 46 42 50" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+  <path d="M58 50 Q63 46 68 50" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Mouth - big smile -->
+  <path d="M35 62 Q50 80 65 62" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Blush -->
+  <ellipse cx="28" cy="58" rx="5" ry="3" fill="#FFB6C1" opacity="0.6"/>
+  <ellipse cx="72" cy="58" rx="5" ry="3" fill="#FFB6C1" opacity="0.6"/>
+</svg>
